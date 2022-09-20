@@ -74,12 +74,12 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://weathernew.pae.baidu.com/weathernew/pc?query=%E9%87%8D%E5%BA%86%E5%A4%A9%E6%B0%94&srcid=4982",
+      openUrl: "https://m.baidu.com/sf?county_id=101040100&dspName=iphone&ext={%22bar_sort%22:%22chuanyi,chuyou,xiche,ganmao,%22,%22sf_tab_name%22:%22chuanyi%22}&from_sf=1&fromapp=vsgo&openapi=1&pd=life_compare_weather&resource_id=4599&title=%E7%94%9F%E6%B4%BB%E6%B0%94%E8%B1%A1%E6%8C%87%E6%95%B0&word=%E9%87%8D%E5%BA%86",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "小林", "year": "1999", "date": "03-18"},
         {"type": "生日", "name": "宝贝", "year": "1997", "date": "09-01"},
-         {"type": "生日", "name": "小林", "year": "1999", "date": "03-18"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2019", "date": "09-15"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
